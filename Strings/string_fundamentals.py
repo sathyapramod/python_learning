@@ -29,3 +29,32 @@ string4 = 'I said "Put down the phone!!"'
 # Determine length of a string
 print(len("abc"))  # 3
 
+# --------------------------------------------------------------------------- #
+"""
+1. Concatenation, which joins two strings together
+2. Indexing, which gets a single character from a string
+3. Slicing, which gets several characters from a string at once
+"""
+
+first_name = "Alan"
+second_name = "Walker"
+concatenated_string = first_name + " " + second_name
+print(concatenated_string)
+
+# Indexing - Each string has a numbered position called 'index'
+flavor = "apple pie"
+print(flavor[0])
+print(flavor[2])
+
+print(flavor[-2])
+
+# Slicing if you want the first 3 letters You could access each character by index and concatenate them
+first_three_letters = flavor[0] + flavor[1] + flavor[2]
+
+# Alternative way - You can extract a portion of a string, called a substring, by inserting a colon
+# between two index numbers inside of square brackets
+
+print(flavor[0:3])
+print(flavor[:5]) # omitting first index - python assumes as it's starts with 0
+print(flavor[5:]) # omitting last index - python assumes it's a last index
+print(flavor[:]) # omitting both index - python assumes as an entire string
