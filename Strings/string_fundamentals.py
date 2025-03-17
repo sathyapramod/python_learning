@@ -58,3 +58,8 @@ print(flavor[0:3])
 print(flavor[:5]) # omitting first index - python assumes as it's starts with 0
 print(flavor[5:]) # omitting last index - python assumes it's a last index
 print(flavor[:]) # omitting both index - python assumes as an entire string
+
+# 4.4 - Interact With User Input
+prompt = "Hello, What's up?"
+user_input = input(prompt)
+print("You Said:", user_input)

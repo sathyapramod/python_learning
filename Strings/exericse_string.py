@@ -1,5 +1,4 @@
 # 1. Print a string that uses double quotation marks inside the string.
-
 print("String with double quotation")
 
 # 2. Print a string that uses an apostrophe inside the string.
@@ -32,3 +31,19 @@ print(full_name)
 # 8. Print the string "zing" by using slice notation on the string "bazinga" to specify the correct range of characters.
 String = "bazinga"
 print(String[2:])
+
+# 9. Take input from the user and display that input back
+usr_input = input("Say Something...\n")
+print(usr_input)
+
+# Display the input string converted to lower-case letters
+print(usr_input.lower())
+
+# Take user input and display the number of input characters.
+usr_input = input("Give string as input: \n")
+print(len(usr_input))
+
+# first_letter
+usr_input = input("Tell me your password:")
+usr_input = usr_input.upper()
+print(usr_input[0])
