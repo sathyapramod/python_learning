@@ -14,3 +14,29 @@ telling Python the position, or index, of the item desired.
 """
 print(bicycles[0])
 print(bicycles[3])
+
+"""
+Using Individual Values from a List
+You can use individual values from a list just as you would any other variable. For example, you can use f-strings to create a message based on a
+value from a list.
+"""
+message = f"My first bicycle was {bicycles[1].title()}"
+print(message)
+
+"""
+3-1. Names: Store the names of a few of your friends in a list called names. Print
+each person’s name by accessing each element in the list, one at a time.
+"""
+names = ['Bharath', 'Vinay', 'Mythri', 'Arpitha']
+print(names[0])
+print(names[1])
+print(names[2])
+print(names[3])
+
+"""
+3-2. Greetings: Start with the list you used in Exercise 3-1, but instead of just
+printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the
+person’s name
+"""
+message_to_friend = f"Hello, {names[2]}"
+print(message_to_friend)
