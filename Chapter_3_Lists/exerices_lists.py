@@ -31,7 +31,40 @@ guest.remove(guest_unavailable)
 
 new_guest = 'bharath'
 guest.insert(1, new_guest)
-print(f"\nFinal list of guest {guest}")
+print(f"\nSecond list of guest {guest}")
 for g in guest:
     print(f"\nDear {g.title()}")
     print("You are cordially invited to a special dinner gathering.")
+
+"""
+You just found a bigger dinner table, so now more space is
+available. Think of three more guests to invite to dinner.
+•
+Start with your program from Exercise 3-4 or 3-5. Add a print() call to the
+end of your program, informing people that you found a bigger table.
+•
+Use insert() to add one new guest to the beginning of your list.
+•
+Use insert() to add one new guest to the middle of your list.
+•
+Use append() to add one new guest to the end of your list.
+•
+Print a new set of invitation messages, one for each person in your list.
+"""
+
+print(f"\n Second list guest {guest}")
+
+new_guest_1 = 'Anand'
+guest.insert(0, new_guest_1)
+
+new_guest_2 = 'Bhubaneswar'
+guest.insert(2, new_guest_2)
+
+new_guest_3 = 'Dany'
+guest.append(new_guest_3)
+
+print(f"\nFinal Guest List for the dinner {guest}")
+for g in guest:
+    print(f"\nDear {g.title()}")
+    print("You are cordially invited to a special dinner gathering.")
+    print("We look forward to an evening of stimulating conversation and delightful food.")
