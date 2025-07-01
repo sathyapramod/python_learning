@@ -36,3 +36,23 @@ print(cars)
 
 cars.insert(0, 'kia')
 print(cars)
+
+# Removing Elements from a List
+# Removing an Item Using the del Statement - If you know the position of the item you want to remove from a list, you can
+# use the del statement.
+
+# Here we use the del statement to remove the first item, 'honda', from the list of motorcycles
+del motorcycles[3]
+print(motorcycles)
+
+del motorcycles[0]
+print(motorcycles)  # Removing ducati
+
+# Removing an Item Using the pop() Method
+# The pop() method removes the last item in a list
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
