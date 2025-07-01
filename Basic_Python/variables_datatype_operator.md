@@ -52,3 +52,48 @@ Use the single equals sign (=).
   Used for logical operations and decision-making
 
 ---
+## 3. Operators
+
+### Concept  
+Operators are symbols that perform operations on values and variables.
+
+---
+
+### Arithmetic Operators
+
+| Operator | Description                 | Example        |
+|----------|-----------------------------|----------------|
+| `+`      | Addition                    | `3 + 2` → `5`   |
+| `-`      | Subtraction                 | `5 - 1` → `4`   |
+| `*`      | Multiplication              | `2 * 3` → `6`   |
+| `/`      | Division (returns float)    | `10 / 4` → `2.5` |
+| `//`     | Floor Division              | `10 // 4` → `2` |
+| `%`      | Modulus (remainder)         | `10 % 3` → `1`  |
+| `**`     | Exponentiation              | `2 ** 3` → `8`  |
+
+---
+
+### Comparison Operators  
+(Return `True` or `False`)
+
+| Operator | Meaning                    | Example          |
+|----------|----------------------------|------------------|
+| `==`     | Equal to                   | `5 == 5` → `True` |
+| `!=`     | Not equal to               | `5 != 3` → `True` |
+| `>`      | Greater than               | `4 > 2` → `True`  |
+| `<`      | Less than                  | `2 < 4` → `True`  |
+| `>=`     | Greater than or equal to   | `5 >= 5` → `True` |
+| `<=`     | Less than or equal to      | `3 <= 4` → `True` |
+
+---
+
+### Logical Operators  
+(Used to combine boolean expressions)
+
+| Operator | Description                        | Example                  |
+|----------|------------------------------------|--------------------------|
+| `and`    | True if both conditions are True   | `True and True` → `True` |
+| `or`     | True if at least one is True       | `True or False` → `True` |
+| `not`    | Inverts the boolean value          | `not True` → `False`     |
+
+---
