@@ -1,5 +1,7 @@
 # Day 1: Variables, Data Types & Operators
 
+> **_NOTE:_**  The corresponding program files have the same name as this .md file, but with a .py extension.
+---
 ## 1. Variables:
 
 ### Concept: 
@@ -24,8 +26,6 @@ Use the single equals sign (=).
 
 * Avoid using Python keywords (e.g., if, for, print).
 ***
-
-> **_NOTE:_**  The corresponding program files have the same name as this .md file, but with a .py extension.
 
 ---
 
