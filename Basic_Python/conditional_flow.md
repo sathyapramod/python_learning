@@ -47,3 +47,9 @@ for item in sequence:
 ```
 ---
 
+# 4. while Loop 
+
+**Concept** 
+Executes a block of code repeatedly as long as a condition is True.
+
+
